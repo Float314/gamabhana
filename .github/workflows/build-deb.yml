@@ -17,7 +17,7 @@ jobs:
       - name: Install build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y debhelper
+          sudo apt-get install -y debhelper build-essential
 
       - name: Build the .deb package
         run: |
